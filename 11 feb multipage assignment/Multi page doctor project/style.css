@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: rgb(217, 211, 211);
+    margin-top: 40px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+nav ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.doctor{
+    height: 500px;
+    width: 400px;
+    margin-right: -350px;
+    margin-top: 20px;
+    position: relative;
+}
+.doctbackground{
+    height: 350px;
+    width: 350px;
+}
+.leftsection{
+    margin-left: 100px;
+}
+.bottomAngle{
+    position: absolute;
+    margin-left: 500px;
+}
+.mouse{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+.leftsection h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.stethoscope{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin-top: -300px;
+    margin-left: 160px;
+}
+.leftsection p{
+    color: rgb(77, 164, 77);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.leftsection button{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(117, 197, 117);
+    font-size: 15px;
+    font-weight: 700;
+}

@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#press{
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    background-color: brown;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}

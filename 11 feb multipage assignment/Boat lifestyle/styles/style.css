@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background: #0f0f10;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+/* removing all default css from tags */
+
+a{
+  text-decoration: none;;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+  margin: 0 15vw;
+}
+
+/* navigation bar */
+
+.navigationbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px;
+  width: 100%;
+}
+
+.navlist ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 40px;
+  margin-left: 400px;
+}
+.navlist ul li a{
+  font-weight: 700;
+  font-size: 35px;
+  color: white;
+}
+.shopbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(58, 52, 52);
+}
+
+ /* main section CSS */
+
+ main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 60px;
+  
+ }
+
+ .rearheadphoneimage{
+  position: relative;
+  left: 80px;
+  top: -200px;
+  height: 700px;
+  width: 400px;
+ }
+
+ .mainsectiondiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative;
+  right: 100px;
+ }
+ .onearlogoimg{
+  height: 100px;
+  width: 500px;
+  left: 50px;
+ }
+ .beat3heading{
+  font-size: 70px;
+ }
+ .overviewheading{
+  font-size: 25px;
+ }
+ .addtobagdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  width: 320px;
+  background-color: rgb(48, 43, 43);
+  border-radius: 10px;
+  cursor: pointer;
+ }
+ .bagimg{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(48, 43, 43);
+ }
+ .addtobagp{
+  font-size: 25px;
+  background-color: rgb(48, 43, 43);
+ }
+ .price{
+  font-size: 30px;
+  font-weight: 700;
+  background-color: rgb(48, 43, 43);
+ }
+
+  /* social media logo */
+
+  .applenameandlogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .applenameandlogo img{
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+  }
+     /* specs  area css */
+  .specimage{
+    height: 100px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 450px;
+  }
+
+  .specsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  .lefthandspection{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    gap: 50px;
+    font-size: 30px;
+  }
+  .spec1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 60px;
+  }
+
+  .specheadphoneimg{
+    height: 450px;
+    width: 450px;
+  }
+  
+  /* case section CSS */
+  .casenamepic{
+    height: 100px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 450px;
+  }
+  .case{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  .caseimg{
+    height: 600px;
+    width: 450px;
+  }
+  .rightcase{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-right: 200px;
+  }
+  .rightcase p{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .moreinfo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(66, 61, 61);
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  .moreinfoimg{
+    background-color: rgb(60, 53, 53);
+  }
+  .moreinfo p{
+    background-color:rgb(60, 53, 53) ;
+  }
+.buynowsection{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(25, 24, 24);
+  height: 450px;
+  width: 1300px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+.leftbuynow{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(25, 24, 24);
+}
+.buynowp1{
+  font-size: 30px;
+  font-weight: 300;
+  background-color: rgb(25, 24, 24);
+}
+.buynowp2{
+  background-color: rgb(25, 24, 24);
+  font-size: 20px;
+  font-weight: 600
+}
+.buynowbutton{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  width: 200px;
+  border-radius: 10px;
+  border: 0px;
+}
+.buynowbagimg{
+  height: 30px;
+  width: 30px;
+}
+.buynowbutton span{
+  font-size: 21px;
+  font-weight: 700;
+}
+.buynowheadphoneimg{
+  height: 400px;
+  width: 650px;
+  background-color: rgb(25, 24, 24);
+}
+.chooseyourstyleimg{
+  margin-top: 70px;
+  margin-left: 500px;
+}
+.blackheadphoneimg{
+  height: 250px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: -100px;
+}
+.maingrid{
+  display: grid;
+  grid-template-columns: 200px 200px ;
+  grid-template-rows: 400px 400px 400px;
+  margin-left: 270px;
+  margin-top: 50px;
+  height: 500px;
+  width: 500px;
+  padding: 100px;
+  column-gap: 100px;
+  row-gap: 10px;
+}
+.colorpricebag{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  margin: 10px;
+}
+.blackheadphone{
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1f;
+  height: 250px ;
+  width: 250px;
+  padding: 10px;
+  gap: 20px;
+  border-radius: 10px;
+
+}
+.blackheadphone img,
+.colorpricebag p,
+.colorpricebag span,
+.colorpricebag{
+  background-color: transparent;
+}
+
+/* footer css */
+
+footer{
+  display: flex;
+  margin-top: 800px;
+  margin-bottom: 200px;
+  align-items: start;
+  justify-content: space-between;
+}
+.footerbrandlogo{
+  height: 40px;
+  width: 40px;
+}
+.footerproducts{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footersupport{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.emaildiv{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.subscribe{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: #1e1e1f;
+  height: 70px;
+  width: 400px;
+  border-radius: 10px;
+}
+.subscribe input{
+  background-color: transparent;
+  border: none;
+  margin-left: 20px;
+}
+.subscribe button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 20px;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.socialmediapic{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
